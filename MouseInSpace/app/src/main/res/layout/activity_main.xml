@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:background = "@drawable/background1_blue"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+android:weightSum="1">
+
+
+
+    <Button
+        android:background = "@drawable/mouse_right2_anim4"
+        android:textSize="50dp"
+        android:layout_width="120dp"
+        android:layout_height="@dimen/mainactivity_button_height"
+        android:layout_marginBottom="@dimen/mainactivity_button_margin"
+        android:text="@string/play_game_button"
+        android:layout_gravity="center_vertical"
+        android:onClick="playGame"/>
+
+    <Button
+        android:background = "@drawable/level_select_button_with_large_text"
+        android:layout_width="120dp"
+        android:layout_height="@dimen/mainactivity_button_height"
+        android:layout_marginBottom="@dimen/mainactivity_button_margin"
+        android:layout_gravity="center_vertical"
+        android:onClick="levelSelect"/>
+
+<Button
+    android:background = "@drawable/planet3"
+    android:textSize="@dimen/mainactivity_button_text_size"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/mainactivity_button_height"
+    android:layout_marginBottom="@dimen/mainactivity_button_margin"
+    android:text="@string/how_to_play_button"
+    android:layout_gravity="center_vertical"
+    android:onClick="tutorial"/>
+
+<Button
+    android:background = "@drawable/planet1"
+    android:textSize="@dimen/mainactivity_button_text_size"
+    android:textColor="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/mainactivity_button_height"
+    android:layout_marginBottom="@dimen/mainactivity_button_margin"
+    android:text="@string/settings_button"
+    android:onClick="settings"/>
+
+android:layout_width="wrap_content"
+android:layout_height="54dp"></TableLayout>
